@@ -6,8 +6,6 @@ import Toast from './components/Toast';
 
 import { CToast, CTReturn } from '../index.d';
 
-import './styles/styles.css';
-
 let ctToastCount = 0;
 
 const cogoToast: CToast = (text, options?) => {
